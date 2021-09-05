@@ -1,0 +1,46 @@
+
+#clock {
+    position: relative;
+    background-color: aqua;
+    height: 42vw;
+    width: 42vw;
+    background: url(clock.jfif) no-repeat center center/cover;
+    border: 0.3vw solid red;
+    border-radius: 100vw;
+    box-shadow: 0.1vw 0.1vw 3vw 1vw rgb(58, 56, 56);
+    
+    margin: auto;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background-color: black;
+    border: 0.2px solid black;
+    border-radius: 100px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1%;
+    height: 19%;
+    top: 30.4%;
+    left: 49.8%;
+}
+
+#minute {
+    width: 0.8%;
+    height: 24%;
+    top: 26%;
+    left: 49.5%;
+}
+
+#second {
+    background-color: red;
+    width: 0.4%;
+    height: 31%;
+    top: 18.6%;
+    left: 49.6%;
+
+}
